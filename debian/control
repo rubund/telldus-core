@@ -2,7 +2,7 @@ Source: telldus-core
 Section: electronics
 Priority: optional
 Maintainer: Ruben Undheim <ruben.undheim@gmail.com>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), libftdi-dev, libconfuse-dev, doxygen
 Standards-Version: 3.9.6
 Vcs-Git: git://github.com/rubund/telldus-core.git
 Vcs-Browser: https://github.com/rubund/telldus-core/tree/debian
