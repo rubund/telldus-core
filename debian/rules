@@ -9,3 +9,7 @@ export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 	dh $@ 
 
 
+override_dh_strip:
+	dh_strip -plibtelldus0 --keep-debug --dbg-package=libtelldus0-dbg
+	dh_strip -ptdtool
+
